@@ -1,0 +1,52 @@
+
+
+
+clin_1 <- read_delim("D:/mirna/clinical.tsv", 
+                       "\t", escape_double = FALSE, trim_ws = TRUE)
+class(clin_1)
+
+x= as.data.frame(clin_1)
+View(x)
+a = x[,2]
+as.data.frame(clin_1)
+View(a)
+b= x[,13]
+View(b)
+class(b)
+clinical = cbind(a,b)
+View(clinical)
+
+#colnames(clinical)[1] = c(Case.ID)
+pheno <- read_delim("D:/mirna/only mirna no isoform/gdc_sample_sheet.2019-11-17.tsv", 
+                                          "\t", escape_double = FALSE, trim_ws = TRUE)
+View(pheno )
+clinical.df = as.data.frame(clinical)
+
+ clinical.df = as.data.frame(clinical)
+ names(clinical.df)=c("Case ID","Gender")
+ View(clinical.df)
+ case_ids = clinical.df$`Case ID`
+ case_ids_clin = pheno$`Case ID`
+ index_file= match(case_ids,case_ids_clin)
+ s=clinical.df
+ y = pheno
+ 
+y = s$Gender[index_file]
+all= cbind(s,z)
+?merge
+merged=merge(y,s,by="Case ID")
+
+merged=merge(y,s,by="Case ID")
+ View(merged)
+ dim(merged)
+#[1] 1232    9
+ dupl=duplicated(merged$`Case ID`)  
+ sum(dupl)
+#[1] 716
+ dupl=duplicated(merged$`Case ID`)  
+ View(dupl)
+ table(merged$`Sample Type`,merged$Gender)
+
+dupl=duplicated(merged$`Case ID`)  
+sum(dupl)
+View(dupl)

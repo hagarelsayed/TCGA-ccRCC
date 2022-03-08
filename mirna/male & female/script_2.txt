@@ -1,0 +1,80 @@
+
+
+
+clin_1 <- read_delim("D:/mirna/clinical.tsv", 
+                       "\t", escape_double = FALSE, trim_ws = TRUE)
+class(clin_1)
+
+x= as.data.frame(clin_1)
+View(x)
+a = x[,2]
+as.data.frame(clin_1)
+View(a)
+b= x[,13]
+View(b)
+class(b)
+clinical = cbind(a,b)
+View(clinical)
+
+#colnames(clinical)[1] = c(Case.ID)
+pheno <- read_delim("D:/mirna/only mirna no isoform/gdc_sample_sheet.2019-11-17.tsv", 
+                                          "\t", escape_double = FALSE, trim_ws = TRUE)
+View(pheno )
+clinical.df = as.data.frame(clinical)
+
+ clinical.df = as.data.frame(clinical)
+ names(clinical.df)=c("Case ID","Gender")
+ View(clinical.df)
+ case_ids = clinical.df$`Case ID`
+ case_ids_clin = pheno$`Case ID`
+ index_file= match(case_ids,case_ids_clin)
+ s=clinical.df
+ y = pheno
+ 
+y = s$Gender[index_file]
+all= cbind(s,z)
+?merge
+merged=merge(y,s,by="Case ID")
+
+merged=merge(y,s,by="Case ID")
+ View(merged)
+ dim(merged)
+#[1] 1232    9
+ dupl=duplicated(merged$`Case ID`)  
+ sum(dupl)
+#[1] 716
+ dupl=duplicated(merged$`Case ID`)  
+ View(dupl)
+ table(merged$`Sample Type`,merged$Gender)
+
+dupl=duplicated(merged$`Case ID`)  
+sum(dupl)
+View(dupl)
+
+install.packages("dplyr")
+library("dplyr")
+dupl.df=duplicated.data.frame(merged)
+sum(dupl.df)
+copy_merged= merged
+no_dupl= distinct(copy_merged)
+table(no_dupl$`Sample Type`,no_dupl$Gender)
+getwd()
+setwd("D:/mirna/male & female")
+write.table(no_dupl, file = "pheno_w_gender.txt")
+getwd()
+pheno_updated = no_dupl
+View(pheno_updated)
+
+#all.normal.samples= pheno[ pheno$Sample.Type %in% c("Solid Tissue Normal"),]$Sample.ID
+#which( data$V1 > 2 | data$V2 < 4)  # this means orr not and
+#my.data.frame <- data[(data$V1 > 2) & (data$V2 < 4), ]
+n_f = which(pheno_updated$`Sample Type` %in% c("Solid Tissue Normal")  &  pheno_updated$Gender %in% c("female"))
+t_f = which(pheno_updated$`Sample Type` %in% c("Primary Tumor")  &  pheno_updated$Gender %in% c("female"))
+n_m = which(pheno_updated$`Sample Type` %in% c("Solid Tissue Normal")  &  pheno_updated$Gender %in% c("male"))
+t_m = which(pheno_updated$`Sample Type` %in% c("Primary Tumor")  &  pheno_updated$Gender %in% c("male"))
+all_n_f_samples=pheno_updated[n_f,]$`Sample ID`
+View(all_n_f_samples)
+all_t_f_samples = pheno_updated[t_f,]$`Sample ID`
+all_n_m_samples = pheno_updated[n_m,]$`Sample ID`
+all_t_m_samples = pheno_updated[t_m,]$`Sample ID`
+

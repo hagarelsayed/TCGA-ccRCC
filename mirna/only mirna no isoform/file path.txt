@@ -1,0 +1,14 @@
+kidney project data path:
+
+file path to exp data = "D:/mirna/only mirna no isoform/gdc_download_20191117_081915.282629"
+
+sample or pheno = "D:/mirna/only mirna no isoform/gdc_sample_sheet.2019-11-17.tsv"
+
+
+
+
+
+
+course data file path
+# data.path= "D:/rstudio/integrative/miRNA/miRNA_data/data/00f98c5e-ffce-4338-91ca-da916646797a"
+#pheno = "D:/rstudio/integrative/miRNA/miRNA_sample sheet.tsv"

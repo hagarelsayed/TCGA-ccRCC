@@ -1,0 +1,239 @@
+install.packages("dplyr")
+library("dplyr")
+
+library(readr)
+library(org.Hs.eg.db)
+library("vsn")
+library(DESeq2)
+
+
+
+clin_1 <- read_delim("D:/mirna/clinical.tsv", 
+                       "\t", escape_double = FALSE, trim_ws = TRUE)
+class(clin_1)
+
+x= as.data.frame(clin_1)
+View(x)
+a = x[,2]
+as.data.frame(clin_1)
+View(a)
+b= x[,13]
+View(b)
+class(b)
+clinical = cbind(a,b)
+View(clinical)
+
+
+pheno <- read_delim("D:/mirna/only mirna no isoform/gdc_sample_sheet.2019-11-17.tsv", 
+                                          "\t", escape_double = FALSE, trim_ws = TRUE)
+View(pheno )
+clinical.df = as.data.frame(clinical)
+
+ clinical.df = as.data.frame(clinical)
+ names(clinical.df)=c("Case ID","Gender")
+ View(clinical.df)
+ case_ids = clinical.df$`Case ID`
+ case_ids_clin = pheno$`Case ID`
+ index_file= match(case_ids,case_ids_clin)
+ s=clinical.df
+ y = pheno
+ z = y$`Sample Type`[index_file] 
+#g = s$Gender[index_file]
+all= cbind(s,z)
+View(all)
+ View(y)
+?merge
+merged=merge(y,s,by="Case ID")
+
+merged=merge(y,s,by="Case ID")
+ View(merged)
+ dim(merged)
+#[1] 1232    9
+ dupl=duplicated(merged$`Case ID`)  
+ sum(dupl)
+#[1] 716
+ 
+ table(merged$`Sample Type`,merged$Gender)
+# 
+#                             female male
+# Additional - New Primary      0    2
+ #Primary Tumor               376  712
+ #Solid Tissue Normal          38  104
+
+ dupl=duplicated(merged$`Case ID`)  
+
+
+install.packages("dplyr")
+library("dplyr")
+dupl.df=duplicated.data.frame(merged)
+sum(dupl.df)
+# [1] 616
+copy_merged= merged
+no_dupl= distinct(copy_merged)
+table(no_dupl$`Sample Type`,no_dupl$Gender)
+# 
+#                           female male
+# Additional - New Primary      0    1
+# Primary Tumor               188  356
+# Solid Tissue Normal          19   52
+getwd()
+setwd("D:/mirna/male & female")
+write.table(no_dupl, file = "pheno_w_gender.txt")
+getwd()
+pheno_updated = no_dupl
+View(pheno_updated)
+
+#all.normal.samples= pheno[ pheno$Sample.Type %in% c("Solid Tissue Normal"),]$Sample.ID
+#which( data$V1 > 2 | data$V2 < 4)  # this means orr not and
+#my.data.frame <- data[(data$V1 > 2) & (data$V2 < 4), ]
+n_f = which(pheno_updated$`Sample Type` %in% c("Solid Tissue Normal")  &  pheno_updated$Gender %in% c("female"))
+t_f = which(pheno_updated$`Sample Type` %in% c("Primary Tumor")  &  pheno_updated$Gender %in% c("female"))
+n_m = which(pheno_updated$`Sample Type` %in% c("Solid Tissue Normal")  &  pheno_updated$Gender %in% c("male"))
+t_m = which(pheno_updated$`Sample Type` %in% c("Primary Tumor")  &  pheno_updated$Gender %in% c("male"))
+all_n_f_samples=pheno_updated[n_f,]$`Sample ID`
+View(all_n_f_samples)
+all_t_f_samples = pheno_updated[t_f,]$`Sample ID`
+all_n_m_samples = pheno_updated[n_m,]$`Sample ID`
+all_t_m_samples = pheno_updated[t_m,]$`Sample ID`
+
+rm(a)
+rm(b)
+rm(case_ids)
+rm(case_ids_clin)
+rm(dupl)
+rm(dupl.df)
+rm(lol)
+rm(z)
+
+###########################################################
+
+
+##### load the mirna-Seq data #####
+
+data.path ="D:/mirna/only mirna no isoform/gdc_download_20191117_081915.282629"
+files <- list.files(path=data.path,recursive=T, pattern = "mirnas.quantification.txt")
+
+# read the first file for the first time
+file=files[1]
+file.id=strsplit(file,"/")[[1]][1]
+
+#open a connection to your gz file and read the file
+temp <- read.table(file.path(data.path,files[1]), header=T)
+
+
+
+#create a storing object mirna.exp to save the whole read counts of each file read in an iteration
+mirna.exp=cbind(temp[1],temp[2])
+
+rownames(mirna.exp)=mirna.exp[,1]
+mirna.exp=mirna.exp[-1]
+colnames(mirna.exp)=c(file.id)
+
+for(i in 2: length(files))
+{
+  
+  ## refer to the next file (note that we start from index 2, bec we already read the first file)
+  file=files[i]
+  file.id=strsplit(file,"/")[[1]][1]
+  
+  # read the next file  
+  temp <- read.table(file.path(data.path,files[i]), header=T)
+  
+  
+  ## remove the first column, bec we had it already
+  temp=temp[2]
+  colnames(temp)=c(file.id)
+  
+  mirna.exp=cbind(mirna.exp,temp)
+}
+
+#pheno here is pheno_updated
+table(pheno_updated$`Sample Type`,pheno_updated$Gender)
+
+pheno.names=names(pheno_updated)
+names(pheno_updated)= as.character( sapply ( pheno.names, function(x) gsub(" ",".",x)))
+
+file.ids=colnames(mirna.exp)
+
+file.ids.pheno=pheno_updated$File.ID
+index.files=match(file.ids,file.ids.pheno)
+names(mirna.exp)=pheno_updated$Sample.ID[index.files]
+
+# 1) first comparison between Female and control : now we will retrieve  the exp data for these female samples only and also the pheno data
+
+normal.exp_f =mirna.exp[, names(mirna.exp)%in% all_n_f_samples]
+tumor.exp_f =mirna.exp[, names(mirna.exp)%in% all_t_f_samples]
+
+
+pheno_sub_f=pheno_updated[pheno_updated$Sample.ID %in% c(all_n_f_samples,all_t_f_samples), c("Sample.ID", "Sample.Type")]
+rm(pheno_sub)
+rm(s)
+rm(x)
+exp_sub_f=cbind(normal.exp_f,tumor.exp_f)
+exp_sub_f=apply (exp_sub, 2,as.integer)
+rownames(exp_sub)=rownames(normal.exp_f)
+
+getwd()
+save(mirna.exp,pheno, exp_sub,pheno_sub ,file="microRNA-seq.RDATA")
+
+
+###### DO the differential EXP analysis using DeSeq2
+cond1="Solid Tissue Normal" 
+cond2="Primary Tumor"
+
+dds = DESeqDataSetFromMatrix( countData = exp.sub , colData = pheno.sub , design = ~ Sample.Type)
+dds.run = DESeq(dds)
+### direct results or specifying teh contrast (to make a res object based on two specific conditions/treatment)
+res=results(dds.run)
+res=results(dds.run, contrast = c("Sample.Type",cond1 ,cond2) )
+
+# remove nulls
+res=res[complete.cases(res), ]
+summary(res)
+
+
+res.df=as.data.frame(res)
+getwd(
+)
+write.table(res.df, file = "res.txt")
+
+plotMA(res, ylim=c(-1,1)) 
+summary (res)
+
+res.degs=res.df[res.df$padj< 0.05 & abs(res.df$log2FoldChange)>log2(2),]
+
+write.table(res.degs, file = "res_degs.txt")
+
+#for Tfmir
+res.degs$regulation=0
+res.degs=as.data.frame(res.degs)
+res.degs[res.degs$log2FoldChange<0,]$regulation =-1
+res.degs[res.degs$log2FoldChange>0,]$regulation =1
+res.degs2= cbind(rownames(res.degs), res.degs$regulation)
+write.table(res.degs2, file="res_reg.tsv", quote = F, col.names = F, row.names = F)
+
+#### get the normalized and loggedtransformed values of all exp data
+#using the the variance stabilizing transformation. vsn package
+ntd=normTransform(dds)
+exp.sub.norm= assay(ntd)
+
+
+# Make a basic volcano plot
+par(mfrow=c(1,1))
+with(res, plot(log2FoldChange, -log10(pvalue), pch=20, main="Volcano plot", xlim=c(-3,3)))
+
+# Add colored points: blue if padj<0.01, red if log2FC>1 and padj<0.05)
+with(subset(res, padj<.01 ), points(log2FoldChange, -log10(pvalue), pch=20, col="blue"))
+with(subset(res, padj<.05 & abs(log2FoldChange)>2), points(log2FoldChange, -log10(pvalue), pch=20, col="red"))
+
+
+
+
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+# 2) second comparison between male and control : now we will retrieve  the exp data for these male samples only and also the pheno data
+normal.exp_m =mirna.exp[, names(mirna.exp)%in% all_n_m_samples]
+tumor.exp_m =mirna.exp[, names(mirna.exp)%in% all_t_m_samples]

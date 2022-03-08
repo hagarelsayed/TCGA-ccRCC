@@ -1,0 +1,395 @@
+Category	Term	Count	Percent	Fold	P-value	Bonferroni	FDR	miRNA
+Function	Apoptosis	6	0.05660377	2.3129473	0.0385	1	0.2902	hsa-mir-9-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-144,hsa-mir-221,hsa-mir-9-3
+Function	Bone Regeneration	3	0.1	4.0862069	0.0343	1	0.2676	hsa-mir-221,hsa-mir-20b,hsa-mir-1-2
+Function	Cardiac Regeneration	1	0.04545455	1.85736677	0.4231	1	1	hsa-mir-1-2
+Function	Cardiogenesis	1	0.14285714	5.83743842	0.1596	1	0.6828	hsa-mir-1-2
+Function	Cell Cycle	8	0.09638554	3.93851267	5.29e-4	0.2083	0.0118	hsa-mir-9-1,hsa-mir-221,hsa-mir-200c,hsa-mir-141,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-205,hsa-mir-1-2
+Function	Cell Death	4	0.05128205	2.09549072	0.1178	1	0.5369	hsa-mir-221,hsa-mir-129-2,hsa-mir-205,hsa-mir-1-2
+Function	Cell Differentiation	5	0.08928571	3.64839901	9.78e-3	1	0.095	hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2
+Function	Cell Proliferation	8	0.1	4.0862069	4.08e-4	0.1609	9.88e-3	hsa-mir-221,hsa-mir-9-1,hsa-mir-200c,hsa-mir-451a,hsa-mir-509-3,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2
+Function	Heart Development	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-1-2
+Function	Hematopoiesis	6	0.10526316	4.30127042	1.91e-3	0.751	0.0279	hsa-mir-486-2,hsa-mir-221,hsa-mir-20b,hsa-mir-486-1,hsa-mir-1-2,hsa-mir-144
+Function	Hormone-mediated Signaling Pathway 	6	0.10344828	4.22711058	2.09e-3	0.8234	0.0288	hsa-mir-9-1,hsa-mir-221,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375
+Function	Inflammation	12	0.10714286	4.37807882	3.75e-6	1.48e-3	3.17e-4	hsa-mir-9-1,hsa-mir-20b,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-144,hsa-mir-33a,hsa-mir-221,hsa-mir-205,hsa-mir-466,hsa-mir-141,hsa-mir-9-3
+Function	Muscle Development	2	0.0952381	3.89162562	0.0911	1	0.4887	hsa-mir-1-2,hsa-mir-221
+Function	Osteogenesis	6	0.10169492	4.15546464	2.29e-3	0.901	0.0311	hsa-mir-33a,hsa-mir-221,hsa-mir-200c,hsa-mir-214,hsa-mir-346,hsa-mir-1-2
+Function	Skeletal Muscle Cell Differentiation	1	0.04545455	1.85736677	0.4231	1	1	hsa-mir-1-2
+Function	T-helper 17 Cell Differentiation	4	0.21052632	8.60254083	8.72e-4	0.3434	0.0159	hsa-mir-141,hsa-mir-20b,hsa-mir-1-2,hsa-mir-214
+Function	Aging	9	0.14285714	5.83743842	8.25e-6	3.25e-3	6.11e-4	hsa-mir-9-1,hsa-mir-221,hsa-mir-200c,hsa-mir-1248,hsa-mir-451a,hsa-mir-141,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-144
+Function	Epithelial-to-Mesenchymal Transition	10	0.12048193	4.92314084	1.11e-5	4.38e-3	7.75e-4	hsa-mir-486-2,hsa-mir-221,hsa-mir-200c,hsa-mir-486-1,hsa-mir-129-2,hsa-mir-451a,hsa-mir-141,hsa-mir-205,hsa-mir-375,hsa-mir-144
+Function	Glucose Metabolism	3	0.10714286	4.37807882	0.0286	1	0.2339	hsa-mir-129-2,hsa-mir-375,hsa-mir-144
+Function	Cellular Senescence	1	0.14285714	5.83743842	0.1596	1	0.6828	hsa-mir-141
+Function	Mesenchymal Stem Cell Proliferation	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-141
+Function	Neuron Development	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-141
+Function	Oxidative Stress	3	0.3	12.25862069	1.41e-3	0.556	0.0229	hsa-mir-33a,hsa-mir-214,hsa-mir-141
+Function	Response to Cytokine	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-141
+Function	Autophagy	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-144
+Function	Cholesterol Homeostasis	2	0.22222222	9.08045977	0.0187	1	0.1596	hsa-mir-33a,hsa-mir-144
+Function	Vascular Smooth Muscle Cell Differentiation	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-144
+Function	Endocytosis	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-199b
+Function	Erythrocyte Differentiation	2	0.22222222	9.08045977	0.0187	1	0.1596	hsa-mir-199b,hsa-mir-451a
+Function	Immune Response	7	0.07608696	3.10907046	5.13e-3	1	0.0568	hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-199b,hsa-mir-9-2,hsa-mir-486-2,hsa-mir-9-3
+Function	Osteoblast Differentiation	1	0.04	1.63448276	0.4652	1	1	hsa-mir-199b
+Function	Cell Adhesion	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-200c
+Function	Embryonic Stem Cell Differentiation	4	0.12903226	5.27252503	5.77e-3	1	0.0594	hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-3,hsa-mir-9-2
+Function	Nephrotoxicity	1	0.05882353	2.40365112	0.3457	1	1	hsa-mir-200c
+Function	Type II Pneumocyte Differentiation	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-200c
+Function	Angiogenesis	5	0.07692308	3.14323607	0.0181	1	0.1556	hsa-mir-486-2,hsa-mir-891a,hsa-mir-221,hsa-mir-486-1,hsa-mir-205
+Function	Cell Motility	4	0.19047619	7.78325123	1.30e-3	0.5125	0.0217	hsa-mir-9-2,hsa-mir-205,hsa-mir-9-1,hsa-mir-9-3
+Function	Wound Healing	1	0.04347826	1.77661169	0.4375	1	1	hsa-mir-205
+Function	Embryonic Development 	1	0.05882353	2.40365112	0.3457	1	1	hsa-mir-20b
+Function	Hepatic Stellate Cell Activation	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-214
+Function	Adipocyte Differentiation	2	0.04878049	1.99327166	0.2653	1	0.9441	hsa-mir-221,hsa-mir-375
+Function	Brain Development	4	0.11111111	4.54022989	9.91e-3	1	0.0955	hsa-mir-9-1,hsa-mir-221,hsa-mir-9-3,hsa-mir-9-2
+Function	Myogensis	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-221
+Function	Cholesterol Efflux	3	0.2	8.17241379	4.93e-3	1	0.0572	hsa-mir-33a,hsa-mir-486-2,hsa-mir-486-1
+Function	Cholesterol Metabolism	3	0.375	15.32327586	6.81e-4	0.2682	0.013	hsa-mir-33a,hsa-mir-486-2,hsa-mir-486-1
+Function	Lipid Metabolism	2	0.04444444	1.81609195	0.3024	1	1	hsa-mir-33a,hsa-mir-375
+Function	Cleavage Stage Development	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-375
+Function	Pancreas Development	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-375
+Function	Carbohydrate Metabolism	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-451a
+Function	Chemotaxis	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-451a
+Function	T-Cell Activation	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-451a
+Function	Cell Migration	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-509-3
+Function	Neuron Differentiation	3	0.21428571	8.75615764	4.01e-3	1	0.0489	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-9-1
+Function	Neutrophil Differentiation	3	1	40.86206897	1.32e-5	5.20e-3	8.70e-4	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2
+Function	Osteoclastogenesis	3	0.5	20.43103448	2.51e-4	0.099	7.09e-3	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Function	Regulation of Nf-Κb Pathway	3	0.42857143	17.51231527	4.33e-4	0.1704	0.0103	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Disease	Acute Myocardial Infarction	6	0.13043478	5.32983508	5.94e-4	0.234	0.0115	hsa-mir-486-2,hsa-mir-221,hsa-mir-486-1,hsa-mir-214,hsa-mir-1-2,hsa-mir-144
+Disease	Aortic Aneurysm	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-1-2
+Disease	Aortic Stenosis	2	0.08	3.26896552	0.1227	1	0.557	hsa-mir-451a,hsa-mir-1-2
+Disease	Aplastic Anemia	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-1-2
+Disease	Arrhythmia	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-1-2
+Disease	Arteriosclerosis Obliterans	2	0.11111111	4.54022989	0.0695	1	0.4287	hsa-mir-1-2,hsa-mir-221
+Disease	Atrial Fibrillation	7	0.11666667	4.76724138	3.89e-4	0.1534	9.61e-3	hsa-mir-486-2,hsa-mir-486-1,hsa-mir-199b,hsa-mir-451a,hsa-mir-466,hsa-mir-1-2,hsa-mir-144
+Disease	Bladder Neoplasms	6	0.16216216	6.62628145	1.72e-4	0.0677	5.66e-3	hsa-mir-9-1,hsa-mir-199b,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-205,hsa-mir-1-2
+Disease	Bladder Outlet Obstruction	2	0.14285714	5.83743842	0.0439	1	0.327	hsa-mir-1-2,hsa-mir-221
+Disease	Breast Neoplasms	15	0.10135135	4.14142591	2.35e-7	9.26e-5	5.57e-5	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-129-2,hsa-mir-451a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-1248,hsa-mir-141
+Disease	Carcinoma, Bladder	14	0.11666667	4.76724138	1.20e-7	4.74e-5	4.76e-5	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-451a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-9-3,hsa-mir-141
+Disease	Carcinoma, Breast	20	0.05747126	2.34839477	3.71e-6	1.46e-3	3.66e-4	hsa-mir-375,hsa-mir-451a,hsa-mir-486-2,hsa-mir-346,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-509-3,hsa-mir-1-2,hsa-mir-33a,hsa-mir-9-1,hsa-mir-144,hsa-mir-129-2,hsa-mir-221,hsa-mir-205,hsa-mir-141,hsa-mir-199b,hsa-mir-9-2,hsa-mir-214,hsa-mir-9-3
+Disease	Carcinoma, Colon	18	0.05714286	2.33497537	5.09e-5	0.02	2.32e-3	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-509-3,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-141,hsa-mir-9-3
+Disease	Carcinoma, Endometrial	4	0.06896552	2.81807372	0.0491	1	0.3147	hsa-mir-200c,hsa-mir-141,hsa-mir-205,hsa-mir-1-2
+Disease	Carcinoma, Gallbladder	1	0.03703704	1.51340996	0.4916	1	1	hsa-mir-1-2
+Disease	Carcinoma, Gastric	17	0.06181818	2.52601881	3.49e-5	0.0138	1.88e-3	hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-509-3,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-221,hsa-mir-508,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-141,hsa-mir-9-3
+Disease	Carcinoma, Hepatocellular	20	0.05899705	2.41074153	3.71e-6	1.46e-3	3.66e-4	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-509-3,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-508,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-141,hsa-mir-9-3
+Disease	Carcinoma, Laryngeal	12	0.19047619	7.78325123	4.55e-9	1.79e-6	5.39e-6	hsa-mir-486-2,hsa-mir-221,hsa-mir-9-1,hsa-mir-20b,hsa-mir-486-1,hsa-mir-214,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-205,hsa-mir-1-2,hsa-mir-375,hsa-mir-144
+Disease	Carcinoma, Lung	18	0.08450704	3.45313259	1.08e-7	4.26e-5	6.41e-5	hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-509-3,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-141,hsa-mir-9-3,hsa-mir-346
+Disease	Carcinoma, Lung. Non-Small-Cell	15	0.06849315	2.79877185	4.28e-5	0.0169	2.03e-3	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-509-3,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-129-2,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-141
+Disease	Carcinoma, Nasopharyngeal	10	0.0877193	3.58439201	1.91e-4	0.0754	5.81e-3	hsa-mir-9-1,hsa-mir-200c,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-451a,hsa-mir-214,hsa-mir-205,hsa-mir-9-3,hsa-mir-346
+Disease	Carcinoma, Ovarian	12	0.06185567	2.52755066	1.05e-3	0.4124	0.018	hsa-mir-9-1,hsa-mir-200c,hsa-mir-509-3,hsa-mir-199b,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-129-2,hsa-mir-451a,hsa-mir-214,hsa-mir-205,hsa-mir-141,hsa-mir-9-3
+Disease	Carcinoma, Prostate	12	0.04669261	1.90795653	0.0124	1	0.1127	hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-129-2,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-9-3,hsa-mir-141
+Disease	Cardiomegaly	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Disease	Cardiomyopathy, Hypertrophic	6	0.10909091	4.45768025	1.58e-3	0.6209	0.0239	hsa-mir-9-1,hsa-mir-451a,hsa-mir-214,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2
+Disease	Cardiovascular Diseases [unspecific]	6	0.09375	3.83081897	3.49e-3	1	0.044	hsa-mir-33a,hsa-mir-221,hsa-mir-200c,hsa-mir-451a,hsa-mir-1-2,hsa-mir-144
+Disease	Cerebral Aneurysm	4	0.2	8.17241379	1.07e-3	0.422	0.0181	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-1-2,hsa-mir-9-1
+Disease	Cholangiocarcinoma	6	0.17142857	7.00492611	1.24e-4	0.0489	4.60e-3	hsa-mir-221,hsa-mir-200c,hsa-mir-141,hsa-mir-205,hsa-mir-1-2,hsa-mir-144
+Disease	Chordoma	1	0.07142857	2.91871921	0.2945	1	1	hsa-mir-1-2
+Disease	Chronic Atrial Fibrillation	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-1-2
+Disease	Chronic Hepatitis C	2	0.05555556	2.27011494	0.2192	1	0.8487	hsa-mir-33a,hsa-mir-1-2
+Disease	Chronic Obstructive Pulmonary Disease	4	0.14285714	5.83743842	3.95e-3	1	0.0493	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2
+Disease	Congenital Heart Diseases	1	0.04545455	1.85736677	0.4231	1	1	hsa-mir-1-2
+Disease	Coronary Heart Diseases	6	0.10714286	4.37807882	1.73e-3	0.6835	0.0257	hsa-mir-486-2,hsa-mir-221,hsa-mir-486-1,hsa-mir-451a,hsa-mir-214,hsa-mir-1-2
+Disease	Diabetes Mellitus	8	0.10810811	4.41752097	2.35e-4	0.0924	6.78e-3	hsa-mir-486-2,hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375
+Disease	Diabetes Mellitus, Type 2	14	0.0952381	3.89162562	1.68e-6	6.61e-4	2.49e-4	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-486-2,hsa-mir-9-3
+Disease	Distal Myopathy	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Disease	Endometriosis	3	0.07317073	2.98990749	0.0753	1	0.415	hsa-mir-451a,hsa-mir-141,hsa-mir-1-2
+Disease	Essential Hypertension	4	0.21052632	8.60254083	8.72e-4	0.3434	0.0159	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-1-2,hsa-mir-9-1
+Disease	Glioblastoma	12	0.07100592	2.90144868	2.78e-4	0.1094	7.31e-3	hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-221,hsa-mir-205,hsa-mir-486-2,hsa-mir-9-3
+Disease	Head And Neck Neoplasms	4	0.11111111	4.54022989	9.91e-3	1	0.0955	hsa-mir-221,hsa-mir-200c,hsa-mir-205,hsa-mir-1-2
+Disease	Heart Diseases [unspecific]	1	0.02631579	1.0753176	0.6159	1	1	hsa-mir-1-2
+Disease	Heart Failure	9	0.075	3.06465517	1.45e-3	0.5703	0.0223	hsa-mir-199b,hsa-mir-1-2,hsa-mir-375,hsa-mir-129-2,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-205
+Disease	Hypertension	2	0.05128205	2.09549072	0.2468	1	0.8916	hsa-mir-214,hsa-mir-1-2
+Disease	Intrahepatic Cholangiocarcinoma	2	0.09090909	3.71473354	0.0988	1	0.4918	hsa-mir-199b,hsa-mir-1-2
+Disease	Lofgren's Syndrome	1	0.08333333	3.40517241	0.2582	1	0.9301	hsa-mir-1-2
+Disease	Long QT Syndrome	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-1-2
+Disease	Lung Neoplasms	10	0.09090909	3.71473354	1.40e-4	0.0553	5.04e-3	hsa-mir-9-1,hsa-mir-486-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-129-2,hsa-mir-33a,hsa-mir-214,hsa-mir-205,hsa-mir-486-2
+Disease	Muscular Dystrophy	3	0.10344828	4.22711058	0.0314	1	0.2498	hsa-mir-221,hsa-mir-214,hsa-mir-1-2
+Disease	Muscular Dystrophy, Duchenne	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-1-2
+Disease	Muscular Dystrophy, Facioscapulohumeral	1	0.05555556	2.27011494	0.3619	1	1	hsa-mir-1-2
+Disease	Musculoskeletal Abnormalities [unspecific]	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Disease	Myelodysplastic Syndromes	3	0.10714286	4.37807882	0.0286	1	0.2339	hsa-mir-221,hsa-mir-205,hsa-mir-1-2
+Disease	Myocardial Infarction	3	0.05769231	2.35742706	0.1306	1	0.5908	hsa-mir-451a,hsa-mir-1-2,hsa-mir-144
+Disease	Myocardial Ischemic-Reperfusion Injury	1	0.0625	2.55387931	0.329	1	1	hsa-mir-1-2
+Disease	Myotonic Muscular Dystrophy	1	0.07142857	2.91871921	0.2945	1	1	hsa-mir-1-2
+Disease	Osteosarcoma	16	0.09356725	3.82335148	2.27e-7	8.94e-5	6.72e-5	hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-486-2,hsa-mir-9-3,hsa-mir-141
+Disease	Ovarian Neoplasms	9	0.08490566	3.46942095	5.72e-4	0.2254	0.0123	hsa-mir-9-1,hsa-mir-200c,hsa-mir-486-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-214,hsa-mir-486-2,hsa-mir-9-3,hsa-mir-141
+Disease	Parkinson's Disease	8	0.19512195	7.97308663	2.56e-6	1.01e-3	3.37e-4	hsa-mir-9-1,hsa-mir-221,hsa-mir-129-2,hsa-mir-214,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-144
+Disease	Polycystic Kidney Disease	3	0.21428571	8.75615764	4.01e-3	1	0.0489	hsa-mir-199b,hsa-mir-205,hsa-mir-1-2
+Disease	Retinal Degeneration	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-1-2
+Disease	Rhabdomyosarcoma	5	0.27777778	11.35057471	4.22e-5	0.0166	2.17e-3	hsa-mir-9-2,hsa-mir-1-2,hsa-mir-214,hsa-mir-9-1,hsa-mir-9-3
+Disease	Squamous Cell Carcinoma, Esophageal	9	0.06338028	2.58984944	4.80e-3	1	0.0563	hsa-mir-9-1,hsa-mir-9-2,hsa-mir-1-2,hsa-mir-375,hsa-mir-129-2,hsa-mir-508,hsa-mir-214,hsa-mir-205,hsa-mir-9-3
+Disease	Squamous Cell Carcinoma, Head and Neck	5	0.10416667	4.25646552	5.03e-3	1	0.0574	hsa-mir-200c,hsa-mir-20b,hsa-mir-141,hsa-mir-1-2,hsa-mir-375
+Disease	Ventricular Tachycardia	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Disease	Viral Myocarditis	3	0.3	12.25862069	1.41e-3	0.556	0.0229	hsa-mir-20b,hsa-mir-1-2,hsa-mir-221
+Disease	Amyotrophic Lateral Sclerosis	3	0.33333333	13.62068966	1.00e-3	0.3957	0.0178	hsa-mir-129-2,hsa-mir-9-2,hsa-mir-141
+Disease	Autism Spectrum Disorder	3	0.10714286	4.37807882	0.0286	1	0.2339	hsa-mir-486-2,hsa-mir-486-1,hsa-mir-129-2
+Disease	Biliary Atresia	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-129-2
+Disease	Brain Neoplasms	5	0.20833333	8.51293103	1.89e-4	0.0744	6.05e-3	hsa-mir-9-1,hsa-mir-129-2,hsa-mir-451a,hsa-mir-9-3,hsa-mir-9-2
+Disease	Carcinoma, Cervical	11	0.07971014	3.25712144	1.97e-4	0.0774	5.82e-3	hsa-mir-9-1,hsa-mir-20b,hsa-mir-9-2,hsa-mir-375,hsa-mir-129-2,hsa-mir-33a,hsa-mir-214,hsa-mir-205,hsa-mir-9-3,hsa-mir-141,hsa-mir-346
+Disease	Carcinoma, Renal Cell	9	0.07563025	3.09040858	1.36e-3	0.5363	0.0224	hsa-mir-200c,hsa-mir-509-3,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-141
+Disease	Carcinoma, Thyroid, Medullary	4	0.36363636	14.85893417	8.51e-5	0.0335	3.36e-3	hsa-mir-129-2,hsa-mir-214,hsa-mir-375,hsa-mir-200c
+Disease	Carcinoma, Urothelial	1	0.06666667	2.72413793	0.312	1	1	hsa-mir-129-2
+Disease	Chondrosarcoma	2	0.0952381	3.89162562	0.0911	1	0.4887	hsa-mir-129-2,hsa-mir-141
+Disease	Gastric Neoplasms	3	0.27272727	11.14420063	1.91e-3	0.7519	0.0276	hsa-mir-129-2,hsa-mir-9-2,hsa-mir-9-1
+Disease	Gastrointestinal Neoplasms	11	0.13414634	5.48149706	1.12e-6	4.41e-4	1.89e-4	hsa-mir-9-1,hsa-mir-221,hsa-mir-200c,hsa-mir-20b,hsa-mir-129-2,hsa-mir-451a,hsa-mir-214,hsa-mir-9-3,hsa-mir-141,hsa-mir-9-2,hsa-mir-375
+Disease	Glioma	13	0.0625	2.55387931	5.09e-4	0.2007	0.0116	hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-2,hsa-mir-144,hsa-mir-129-2,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-508,hsa-mir-214,hsa-mir-205,hsa-mir-9-3,hsa-mir-141
+Disease	Inflammatory Bowel Diseases	3	0.09375	3.83081897	0.0406	1	0.3044	hsa-mir-200c,hsa-mir-129-2,hsa-mir-346
+Disease	Oral Leukoplakia	2	0.16666667	6.81034483	0.0328	1	0.2574	hsa-mir-129-2,hsa-mir-205
+Disease	Peritoneal Dialysis Failure	3	0.09677419	3.95439377	0.0374	1	0.2858	hsa-mir-221,hsa-mir-129-2,hsa-mir-205
+Disease	ACTH-Secreting Pituitary Adenoma	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-141
+Disease	Adenocarcinoma, Pancreatic Ductal	4	0.05633803	2.30208839	0.0903	1	0.4864	hsa-mir-221,hsa-mir-200c,hsa-mir-141,hsa-mir-375
+Disease	Adenocarcinoma, Prostate	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-221,hsa-mir-141
+Disease	Carcinoma, Biliary Tract	2	0.28571429	11.67487685	0.0113	1	0.1067	hsa-mir-205,hsa-mir-141
+Disease	Carcinoma, Endometrioid Endometrial	3	0.42857143	17.51231527	4.33e-4	0.1704	0.0103	hsa-mir-205,hsa-mir-200c,hsa-mir-141
+Disease	Carcinoma, Esophageal	8	0.12121212	4.95297806	1.02e-4	0.0402	3.90e-3	hsa-mir-221,hsa-mir-200c,hsa-mir-20b,hsa-mir-451a,hsa-mir-141,hsa-mir-205,hsa-mir-375,hsa-mir-144
+Disease	Carcinoma, Pancreatic	7	0.04216867	1.72309929	0.0985	1	0.4926	hsa-mir-200c,hsa-mir-375,hsa-mir-33a,hsa-mir-221,hsa-mir-214,hsa-mir-205,hsa-mir-141
+Disease	Carcinoma, Rectal	5	0.10416667	4.25646552	5.03e-3	1	0.0574	hsa-mir-486-2,hsa-mir-221,hsa-mir-486-1,hsa-mir-199b,hsa-mir-141
+Disease	Carcinoma, Renal Cell, Clear-Cell	4	0.06896552	2.81807372	0.0491	1	0.3147	hsa-mir-9-1,hsa-mir-141,hsa-mir-9-3,hsa-mir-9-2
+Disease	Cardiomyopathy, Ischemic	1	0.05263158	2.15063521	0.3778	1	1	hsa-mir-141
+Disease	Colitis, Ulcerative	2	0.07692308	3.14323607	0.131	1	0.59	hsa-mir-200c,hsa-mir-141
+Disease	Colon Neoplasms	5	0.06493506	2.6533811	0.0352	1	0.2729	hsa-mir-486-2,hsa-mir-221,hsa-mir-486-1,hsa-mir-141,hsa-mir-205
+Disease	Crohn Disease	1	0.03030303	1.23824451	0.5635	1	1	hsa-mir-141
+Disease	Esophageal Neoplasms	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-141
+Disease	Hepatitis B Virus Infection	3	0.04477612	1.82964488	0.2227	1	0.835	hsa-mir-221,hsa-mir-141,hsa-mir-205
+Disease	Hirschsprung's Disease	1	0.04545455	1.85736677	0.4231	1	1	hsa-mir-141
+Disease	Idiopathic Asthenospermia	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-141
+Disease	Melanoma	13	0.09848485	4.02429467	3.27e-6	1.29e-3	3.53e-4	hsa-mir-9-1,hsa-mir-200c,hsa-mir-20b,hsa-mir-9-2,hsa-mir-375,hsa-mir-451a,hsa-mir-33a,hsa-mir-221,hsa-mir-508,hsa-mir-214,hsa-mir-205,hsa-mir-141,hsa-mir-9-3
+Disease	Multiple Sclerosis	2	0.04255319	1.73881145	0.3209	1	1	hsa-mir-214,hsa-mir-141
+Disease	Nephrosclerosis	2	0.33333333	13.62068966	8.17e-3	1	0.0813	hsa-mir-205,hsa-mir-141
+Disease	Thyroid Neoplasms	3	0.1875	7.66163793	5.96e-3	1	0.0609	hsa-mir-144,hsa-mir-221,hsa-mir-141
+Disease	Allergic Asthma	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-144
+Disease	Atherosclerosis	6	0.06315789	2.58076225	0.0237	1	0.1978	hsa-mir-9-1,hsa-mir-9-2,hsa-mir-144,hsa-mir-33a,hsa-mir-221,hsa-mir-9-3
+Disease	Bronchiolitis Obliterans Syndrome	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-144
+Disease	Carcinoma, Thyroid	6	0.16666667	6.81034483	1.47e-4	0.0577	5.11e-3	hsa-mir-486-2,hsa-mir-221,hsa-mir-486-1,hsa-mir-214,hsa-mir-205,hsa-mir-144
+Disease	Carcinoma, Thyroid, Papillary	9	0.16071429	6.56711823	2.95e-6	1.16e-3	3.50e-4	hsa-mir-9-1,hsa-mir-221,hsa-mir-199b,hsa-mir-214,hsa-mir-451a,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-375,hsa-mir-144
+Disease	Glaucoma	3	0.10344828	4.22711058	0.0314	1	0.2498	hsa-mir-451a,hsa-mir-205,hsa-mir-144
+Disease	Hemophagocytic Lymphohistiocytosis	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-144
+Disease	Influenza	2	0.07692308	3.14323607	0.131	1	0.59	hsa-mir-33a,hsa-mir-144
+Disease	Liver Cirrhosis	7	0.12280702	5.01814882	2.80e-4	0.1105	7.22e-3	hsa-mir-33a,hsa-mir-221,hsa-mir-9-1,hsa-mir-214,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-144
+Disease	Lymphoma	5	0.08333333	3.40517241	0.0131	1	0.1181	hsa-mir-486-2,hsa-mir-200c,hsa-mir-20b,hsa-mir-486-1,hsa-mir-144
+Disease	Neurodegenerative Diseases [unspecific]	1	0.05263158	2.15063521	0.3778	1	1	hsa-mir-144
+Disease	Non-Alcoholic Steatohepatitis	4	1	40.86206897	2.91e-7	1.14e-4	5.74e-5	hsa-mir-9-3,hsa-mir-9-1,hsa-mir-144,hsa-mir-9-2
+Disease	Prolactinoma	4	0.26666667	10.89655172	3.29e-4	0.1295	8.29e-3	hsa-mir-486-2,hsa-mir-451a,hsa-mir-486-1,hsa-mir-144
+Disease	Squamous Cell Carcinoma, Cerevial	2	0.11764706	4.80730223	0.0627	1	0.3888	hsa-mir-205,hsa-mir-144
+Disease	Squamous Cell Carcinoma, Oral	8	0.09638554	3.93851267	5.29e-4	0.2083	0.0118	hsa-mir-9-1,hsa-mir-221,hsa-mir-200c,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-205,hsa-mir-144,hsa-mir-375
+Disease	Stroke, Ischemic	2	0.05882353	2.40365112	0.2009	1	0.7807	hsa-mir-199b,hsa-mir-144
+Disease	Thyroid Adenomas	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-144
+Disease	Uveal Melanoma	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-144
+Disease	Carcinoma, Thyroid, Follicular	3	0.33333333	13.62068966	1.00e-3	0.3957	0.0178	hsa-mir-199b,hsa-mir-375,hsa-mir-221
+Disease	Choriocarcinoma	4	0.06666667	2.72413793	0.0546	1	0.3422	hsa-mir-221,hsa-mir-200c,hsa-mir-199b,hsa-mir-205
+Disease	Coronary Atherosclerosis	2	0.14285714	5.83743842	0.0439	1	0.327	hsa-mir-199b,hsa-mir-221
+Disease	Cutaneous Melanoma	2	0.10526316	4.30127042	0.0765	1	0.4157	hsa-mir-199b,hsa-mir-205
+Disease	Kaposi's Sarcoma	3	0.11111111	4.54022989	0.026	1	0.2153	hsa-mir-221,hsa-mir-200c,hsa-mir-199b
+Disease	Leukemia	6	0.08955224	3.65928976	4.41e-3	1	0.0528	hsa-mir-486-2,hsa-mir-9-1,hsa-mir-486-1,hsa-mir-199b,hsa-mir-9-3,hsa-mir-9-2
+Disease	Leukemia, Myeloid, Acute	6	0.05042017	2.06027238	0.0624	1	0.3892	hsa-mir-9-1,hsa-mir-200c,hsa-mir-199b,hsa-mir-9-2,hsa-mir-221,hsa-mir-9-3
+Disease	Leukemia, Myeloid, Chronic	4	0.05970149	2.43952651	0.0762	1	0.4162	hsa-mir-9-1,hsa-mir-199b,hsa-mir-9-3,hsa-mir-9-2
+Disease	Medulloblastoma	4	0.13333333	5.44827586	5.11e-3	1	0.0571	hsa-mir-9-1,hsa-mir-199b,hsa-mir-9-3,hsa-mir-9-2
+Disease	Polycystic Ovarian Syndrome	4	0.13793103	5.63614744	4.50e-3	1	0.0534	hsa-mir-486-2,hsa-mir-486-1,hsa-mir-199b,hsa-mir-375
+Disease	Acute Kidney Injury	1	0.05882353	2.40365112	0.3457	1	1	hsa-mir-200c
+Disease	Adenocarcinoma, Lung	8	0.07920792	3.23659952	2.00e-3	0.7899	0.0279	hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-2,hsa-mir-375,hsa-mir-451a,hsa-mir-214,hsa-mir-205,hsa-mir-9-3
+Disease	Alzheimer's Disease	6	0.06	2.45172414	0.0298	1	0.2387	hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-2,hsa-mir-375,hsa-mir-33a,hsa-mir-9-3
+Disease	Asthma	5	0.12195122	4.98317914	2.49e-3	0.9793	0.0335	hsa-mir-9-1,hsa-mir-221,hsa-mir-200c,hsa-mir-9-3,hsa-mir-9-2
+Disease	Autoimmune Diseases [unspecific]	2	0.05555556	2.27011494	0.2192	1	0.8487	hsa-mir-221,hsa-mir-200c
+Disease	Carcinoma, Skin	2	0.25	10.21551724	0.0148	1	0.1317	hsa-mir-205,hsa-mir-200c
+Disease	Carcinoma, Spindle Cell	2	0.5	20.43103448	3.37e-3	1	0.0434	hsa-mir-200c,hsa-mir-205
+Disease	Cardiomyopathy	5	0.20833333	8.51293103	1.89e-4	0.0744	6.05e-3	hsa-mir-9-1,hsa-mir-200c,hsa-mir-451a,hsa-mir-9-3,hsa-mir-9-2
+Disease	Chronic Hepatitis B	1	0.03125	1.27693966	0.5523	1	1	hsa-mir-200c
+Disease	Human Cytomegalovirus Infection	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-200c
+Disease	Kallmann Syndrome	4	0.66666667	27.24137931	4.21e-6	1.66e-3	3.33e-4	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-200c,hsa-mir-9-3
+Disease	Kawasaki's Syndrome	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-200c
+Disease	Kidney Diseases [unspecific]	1	0.14285714	5.83743842	0.1596	1	0.6828	hsa-mir-200c
+Disease	Kidney Injury	1	0.03571429	1.45935961	0.5044	1	1	hsa-mir-200c
+Disease	Kidney Neoplasms	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-200c
+Disease	Leiomyoma	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-200c
+Disease	Leiomyosarcoma	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-200c
+Disease	Liver Diseases [unspecific]	1	0.03448276	1.40903686	0.5168	1	1	hsa-mir-200c
+Disease	Lymphoma, Large B-Cell, Diffuse	4	0.10526316	4.30127042	0.012	1	0.1112	hsa-mir-33a,hsa-mir-221,hsa-mir-200c,hsa-mir-214
+Disease	Ovarian Serous Cystadenocarcinoma	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-200c
+Disease	Pancreatic Neoplasms	5	0.078125	3.19234914	0.017	1	0.1472	hsa-mir-486-2,hsa-mir-221,hsa-mir-200c,hsa-mir-486-1,hsa-mir-214
+Disease	Pituitary Adenoma	1	0.05263158	2.15063521	0.3778	1	1	hsa-mir-200c
+Disease	Prostate Neoplasms	6	0.08	3.26896552	7.76e-3	1	0.0786	hsa-mir-486-2,hsa-mir-221,hsa-mir-200c,hsa-mir-486-1,hsa-mir-214,hsa-mir-205
+Disease	Tuberculosis, Pulmonary	1	0.03846154	1.57161804	0.4786	1	1	hsa-mir-200c
+Disease	Adenocarcinoma, Esophageal	1	0.04545455	1.85736677	0.4231	1	1	hsa-mir-205
+Disease	Adenocarcinoma, Gastric	4	0.10526316	4.30127042	0.012	1	0.1112	hsa-mir-486-2,hsa-mir-20b,hsa-mir-486-1,hsa-mir-205
+Disease	Aortic Aneurysm, Abdominal	1	0.04761905	1.94581281	0.4083	1	1	hsa-mir-205
+Disease	Barrett's Esophagus	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-205
+Disease	Carcinoma, Adrenocortical	2	0.06666667	2.72413793	0.1652	1	0.6968	hsa-mir-205,hsa-mir-375
+Disease	Carcinoma, Oral	2	0.05405405	2.20876048	0.2283	1	0.8536	hsa-mir-214,hsa-mir-205
+Disease	Human Papilloma Virus Infection	1	0.02941176	1.20182556	0.5745	1	1	hsa-mir-205
+Disease	Keloid	1	0.07692308	3.14323607	0.2766	1	0.9813	hsa-mir-205
+Disease	Neuroblastoma	2	0.03389831	1.38515488	0.4288	1	1	hsa-mir-205,hsa-mir-375
+Disease	Preeclampsia	2	0.02702703	1.10438024	0.551	1	1	hsa-mir-346,hsa-mir-205
+Disease	Squamous Cell Carcinoma, Laryngeal or Hypopharyngeal	4	0.14285714	5.83743842	3.95e-3	1	0.0493	hsa-mir-451a,hsa-mir-214,hsa-mir-205,hsa-mir-375
+Disease	Squamous Cell Carcinoma, Lung	2	0.08695652	3.55322339	0.1066	1	0.5263	hsa-mir-205,hsa-mir-375
+Disease	Squamous Cell Carcinoma, Skin or Unspecific	1	0.05555556	2.27011494	0.3619	1	1	hsa-mir-205
+Disease	Diabetic Retinopathy	1	0.04761905	1.94581281	0.4083	1	1	hsa-mir-20b
+Disease	Diabetic Vasculopathy	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-20b
+Disease	Encephalomyelitis	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-20b
+Disease	Lymphoma, Mantle-Cell	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-20b
+Disease	Myasthenia Gravis	1	0.07142857	2.91871921	0.2945	1	1	hsa-mir-20b
+Disease	Peripheral Vascular Disease	1	0.07142857	2.91871921	0.2945	1	1	hsa-mir-20b
+Disease	Adrenal Cortex Neoplasms	1	0.08333333	3.40517241	0.2582	1	0.9301	hsa-mir-214
+Disease	Angiosarcoma	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-214
+Disease	Bronchopulmonary Dysplasia	1	0.0625	2.55387931	0.329	1	1	hsa-mir-214
+Disease	Cataract	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-214
+Disease	Cervical Neoplasms	1	0.05263158	2.15063521	0.3778	1	1	hsa-mir-214
+Disease	Chronic Heart Failure	2	0.33333333	13.62068966	8.17e-3	1	0.0813	hsa-mir-214,hsa-mir-221
+Disease	Coxsackievirus Infection	2	0.66666667	27.24137931	1.71e-3	0.6737	0.0256	hsa-mir-214,hsa-mir-466
+Disease	Diabetic Nephropathy	1	0.04166667	1.70258621	0.4515	1	1	hsa-mir-214
+Disease	HIV-Associated Lipodystrophy	2	0.07142857	2.91871921	0.1479	1	0.6349	hsa-mir-214,hsa-mir-346
+Disease	Hepatoblastoma	2	0.07692308	3.14323607	0.131	1	0.59	hsa-mir-221,hsa-mir-214
+Disease	Huntington's Disease	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-214
+Disease	Ischemia-Reperfusion Injury	1	0.04347826	1.77661169	0.4375	1	1	hsa-mir-214
+Disease	Leukemia, Lymphocytic, Chronic	4	0.09756098	3.98654331	0.0157	1	0.1364	hsa-mir-9-1,hsa-mir-214,hsa-mir-9-3,hsa-mir-9-2
+Disease	Pediatric Osteosarcoma	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-214
+Disease	Retinal Neovascularization	2	0.28571429	11.67487685	0.0113	1	0.1067	hsa-mir-451a,hsa-mir-214
+Disease	Scleroderma, Localized	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-214
+Disease	Sickle Cell Disease	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-214
+Disease	Squamous Cell Carcinoma, Tongue	2	0.07407407	3.02681992	0.1394	1	0.6005	hsa-mir-214,hsa-mir-375
+Disease	Testicular Germ Cell Tumor	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-214
+Disease	Adenocarcinoma, Ampullary	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-221
+Disease	Allergy	2	0.0952381	3.89162562	0.0911	1	0.4887	hsa-mir-221,hsa-mir-375
+Disease	Alopecia	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-221
+Disease	Astrocytoma	1	0.05882353	2.40365112	0.3457	1	1	hsa-mir-221
+Disease	Carcinoma, Thyroid, Anaplastic	1	0.08333333	3.40517241	0.2582	1	0.9301	hsa-mir-221
+Disease	Carotid Artery Diseases	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-221
+Disease	Carotid Atherosclerosis	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-221
+Disease	Epilepsy	1	0.03703704	1.51340996	0.4916	1	1	hsa-mir-221
+Disease	Epstein-Barr Virus Infection	4	0.22222222	9.08045977	7.00e-4	0.2758	0.013	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-9-1,hsa-mir-221
+Disease	Essential Thrombocythemia	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-221
+Disease	Hematologic Neoplasms	1	0.02941176	1.20182556	0.5745	1	1	hsa-mir-221
+Disease	Hepatitis C Virus Infection	1	0.01149425	0.46967895	0.8934	1	1	hsa-mir-221
+Disease	Hereditary Breast Carcinoma	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-221
+Disease	Leukemia, Lymphoblastic	1	0.04761905	1.94581281	0.4083	1	1	hsa-mir-221
+Disease	Leukemia, Lymphoblastic, Acute	1	0.04166667	1.70258621	0.4515	1	1	hsa-mir-221
+Disease	Leukemia, Lymphoblastic, Acute, B-Cell	2	0.15384615	6.28647215	0.0382	1	0.29	hsa-mir-451a,hsa-mir-221
+Disease	Leukemia, Lymphocytic, Chronic, B-Cell	1	0.02941176	1.20182556	0.5745	1	1	hsa-mir-221
+Disease	Liver Injury	1	0.06666667	2.72413793	0.312	1	1	hsa-mir-221
+Disease	Lung Fibrosis	3	0.13636364	5.57210031	0.0148	1	0.1313	hsa-mir-486-2,hsa-mir-221,hsa-mir-486-1
+Disease	Lymphoma, Primary Effusion	1	0.07692308	3.14323607	0.2766	1	0.9813	hsa-mir-221
+Disease	Marek Disease	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-221
+Disease	Maternal Obesity During Childbirth	2	0.13333333	5.44827586	0.0499	1	0.316	hsa-mir-221,hsa-mir-375
+Disease	Multiple Myeloma	5	0.08333333	3.40517241	0.0131	1	0.1181	hsa-mir-221,hsa-mir-9-1,hsa-mir-451a,hsa-mir-9-3,hsa-mir-9-2
+Disease	Obesity	2	0.03921569	1.60243408	0.3575	1	1	hsa-mir-33a,hsa-mir-221
+Disease	Pediatric Astrocytoma	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-221
+Disease	Pleural Mesothelioma	1	0.03125	1.27693966	0.5523	1	1	hsa-mir-221
+Disease	Polycythemia Vera	2	0.1	4.0862069	0.0837	1	0.453	hsa-mir-451a,hsa-mir-221
+Disease	Pulmonary Sarcoidosis	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-221
+Disease	Rheumatoid Arthritis	5	0.09259259	3.7835249	8.39e-3	1	0.0821	hsa-mir-9-1,hsa-mir-221,hsa-mir-451a,hsa-mir-9-3,hsa-mir-9-2
+Disease	Stroke	1	0.02702703	1.10438024	0.6059	1	1	hsa-mir-221
+Disease	Systemic Lupus Erythematosus	1	0.01818182	0.74294671	0.7522	1	1	hsa-mir-221
+Disease	Thyroid Lymphoma	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-221
+Disease	Vasculitis	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-221
+Disease	Carcinoma, Supraglottic	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-33a,hsa-mir-375
+Disease	Diabetes Mellitus, Gestational	5	0.2173913	8.88305847	1.52e-4	0.0599	5.15e-3	hsa-mir-33a,hsa-mir-9-1,hsa-mir-508,hsa-mir-9-3,hsa-mir-9-2
+Disease	Hypercholesterolaemia	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-33a
+Disease	Japanese Encephalitis Virus Infection	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-33a
+Disease	Metabolic Syndrome	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-33a
+Disease	Psoriasis	1	0.03030303	1.23824451	0.5635	1	1	hsa-mir-33a
+Disease	Graves' Disease	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-346
+Disease	Schizophrenia	4	0.0754717	3.08392973	0.0369	1	0.284	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2,hsa-mir-346
+Disease	Carcinoma, Basal Cell	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-375
+Disease	Carcinoma, Head And Neck	1	0.07692308	3.14323607	0.2766	1	0.9813	hsa-mir-375
+Disease	Carcinoma, Merkel Cell	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-375
+Disease	Carcinoma, Periampullary	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-375
+Disease	Gallstones	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-375
+Disease	Helicobacter Pylori Infection	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-375
+Disease	Liver Failure	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-375
+Disease	Liver Neoplasms	3	0.12	4.90344828	0.0211	1	0.1774	hsa-mir-486-2,hsa-mir-486-1,hsa-mir-375
+Disease	Myeloproliferative Neoplasms	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-375
+Disease	Salivary Gland Neoplasms	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-375
+Disease	Sepsis	4	0.11764706	4.80730223	8.08e-3	1	0.0811	hsa-mir-486-2,hsa-mir-486-1,hsa-mir-466,hsa-mir-375
+Disease	Depression Disorder	1	0.04347826	1.77661169	0.4375	1	1	hsa-mir-451a
+Disease	Ectopic Pregnancy	1	0.07692308	3.14323607	0.2766	1	0.9813	hsa-mir-451a
+Disease	Fibromyalgia	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-451a
+Disease	Fungal Keratitis	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-451a
+Disease	Leukemia-Lymphoma, Precursor B-Cell Lymphoblastic	1	0.11111111	4.54022989	0.2005	1	0.8054	hsa-mir-451a
+Disease	Liposarcoma	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-451a
+Disease	Necrotizing Enterocolitis	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-451a
+Disease	Plasmodium vivax Infection	1	0.25	10.21551724	0.0945	1	0.4998	hsa-mir-451a
+Disease	Adenovirus Infection	1	0.02777778	1.13505747	0.5957	1	1	hsa-mir-466
+Disease	Acute Coronary Syndrome	2	0.09090909	3.71473354	0.0988	1	0.4918	hsa-mir-486-2,hsa-mir-486-1
+Disease	Kidney Transplant Rejection	2	0.18181818	7.42946708	0.0277	1	0.2283	hsa-mir-486-2,hsa-mir-486-1
+Disease	Leukemia, Myeloid	2	0.11111111	4.54022989	0.0695	1	0.4287	hsa-mir-486-2,hsa-mir-486-1
+Disease	Carcinoma, Ovarian, Serous	2	0.08333333	3.40517241	0.1146	1	0.5633	hsa-mir-508,hsa-mir-509-3
+Disease	Cystic Fibrosis	1	0.0625	2.55387931	0.329	1	1	hsa-mir-509-3
+Disease	Medulloepithelioma	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-509-3
+Disease	Adenocarcinoma, Cervical	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-9-1
+Disease	Carcinoma, Ovarian, Clear Cell	3	0.75	30.64655172	5.20e-5	0.0205	2.28e-3	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2
+Disease	Endometrial Neoplasms	3	0.25	10.21551724	2.50e-3	0.986	0.0333	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-9-1
+Disease	Fatty Liver, Non-Alcoholic	3	0.2	8.17241379	4.93e-3	1	0.0572	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-9-1
+Disease	Hepatitis [unspecific]	3	0.25	10.21551724	2.50e-3	0.986	0.0333	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Disease	Knee Osteoarthritis	3	0.75	30.64655172	5.20e-5	0.0205	2.28e-3	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2
+Disease	Lymphoma, Hodgkin	3	0.13636364	5.57210031	0.0148	1	0.1313	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2
+Disease	MELAS Syndrome	3	1	40.86206897	1.32e-5	5.20e-3	8.70e-4	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2
+Disease	Machado-Joseph Disease	3	0.27272727	11.14420063	1.91e-3	0.7519	0.0276	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Disease	Nervous System Diseases [unspecific]	3	0.3	12.25862069	1.41e-3	0.556	0.0229	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Disease	Osteoarthritis	3	0.07317073	2.98990749	0.0753	1	0.415	hsa-mir-9-1,hsa-mir-9-3,hsa-mir-9-2
+Disease	Spinal Muscular Atrophy	3	0.5	20.43103448	2.51e-4	0.099	7.09e-3	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Disease	Waldenstrom Macroglobulinemia	3	0.375	15.32327586	6.81e-4	0.2682	0.013	hsa-mir-9-2,hsa-mir-9-1,hsa-mir-9-3
+Transcription Factor	CEBPA	1	0.09090909	3.71473354	0.2395	1	0.8923	hsa-mir-1-2
+Transcription Factor	MRF4	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Transcription Factor	MYF5	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Transcription Factor	MYOD	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Transcription Factor	MYOGENIN	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-1-2
+Transcription Factor	SLUG	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-1-2,hsa-mir-200c
+Transcription Factor	TNFSF12	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-1-2
+Transcription Factor	YY1	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-1-2
+Transcription Factor	EP300	2	1	40.86206897	5.79e-4	0.228	0.0122	hsa-mir-200c,hsa-mir-141
+Transcription Factor	KAT2B	2	1	40.86206897	5.79e-4	0.228	0.0122	hsa-mir-200c,hsa-mir-141
+Transcription Factor	MYC	6	0.15	6.12931034	2.70e-4	0.1063	7.26e-3	hsa-mir-221,hsa-mir-9-1,hsa-mir-20b,hsa-mir-141,hsa-mir-9-3,hsa-mir-9-2
+Transcription Factor	SIP1	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-200c,hsa-mir-141
+Transcription Factor	TGFB1	3	0.15	6.12931034	0.0114	1	0.106	hsa-mir-205,hsa-mir-200c,hsa-mir-141
+Transcription Factor	ZEB1	2	0.14285714	5.83743842	0.0439	1	0.327	hsa-mir-200c,hsa-mir-141
+Transcription Factor	ZEB2	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-200c,hsa-mir-141
+Transcription Factor	BMP4	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-200c,hsa-mir-205
+Transcription Factor	GATA3	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-200c
+Transcription Factor	KLF4	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-200c
+Transcription Factor	SIX1	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-200c
+Transcription Factor	TP53	1	0.05	2.04310345	0.3932	1	1	hsa-mir-200c
+Transcription Factor	TWIST1	3	0.3	12.25862069	1.41e-3	0.556	0.0229	hsa-mir-205,hsa-mir-214,hsa-mir-200c
+Transcription Factor	E2F1	1	0.03846154	1.57161804	0.4786	1	1	hsa-mir-20b
+Transcription Factor	ERS1	2	0.13333333	5.44827586	0.0499	1	0.316	hsa-mir-20b,hsa-mir-221
+Transcription Factor	NFKB1	4	0.15384615	6.28647215	2.98e-3	1	0.0389	hsa-mir-9-1,hsa-mir-214,hsa-mir-9-3,hsa-mir-9-2
+Transcription Factor	FOSL1	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-221
+Transcription Factor	MYCN	1	0.1	4.0862069	0.2202	1	0.8472	hsa-mir-221
+Transcription Factor	P27	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-221
+Transcription Factor	PDGF	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-221
+Transcription Factor	SF2/ASF	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-221
+Transcription Factor	TCF3	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-451a
+Transcription Factor	HIF1A	3	0.27272727	11.14420063	1.91e-3	0.7519	0.0276	hsa-mir-9-2,hsa-mir-9-3,hsa-mir-9-1
+Transcription Factor	IL1B	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-9-1
+Transcription Factor	TLR2	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-9-1
+Transcription Factor	TNF	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-9-1
+Transcription Factor	CREB1	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-9-2
+Transcription Factor	REST	1	0.2	8.17241379	0.1167	1	0.5715	hsa-mir-9-2
+Cluster	hsa-mir-1-2 cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-1-2
+Cluster	hsa-mir-670 cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-129-2
+Cluster	hsa-mir-1295b cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-1295a
+Cluster	hsa-mir-200c cluster	2	1	40.86206897	5.79e-4	0.228	0.0122	hsa-mir-200c,hsa-mir-141
+Cluster	hsa-mir-4732 cluster	2	0.5	20.43103448	3.37e-3	1	0.0434	hsa-mir-144,hsa-mir-451a
+Cluster	hsa-mir-3154 cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-199b
+Cluster	hsa-mir-106a cluster	1	0.16666667	6.81034483	0.1384	1	0.6166	hsa-mir-20b
+Cluster	hsa-mir-199a-2 cluster	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-214
+Cluster	hsa-mir-222 cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-221
+Cluster	hsa-mir-33a cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-33a
+Cluster	hsa-mir-486-2 cluster	2	1	40.86206897	5.79e-4	0.228	0.0122	hsa-mir-486-2,hsa-mir-486-1
+Cluster	hsa-mir-514a-3 cluster	5	0.33333333	13.62068966	1.56e-5	6.13e-3	8.78e-4	hsa-mir-514a-3,hsa-mir-514a-2,hsa-mir-514a-1,hsa-mir-509-3,hsa-mir-508
+Cluster	hsa-mir-891a cluster	1	0.14285714	5.83743842	0.1596	1	0.6828	hsa-mir-891a
+Cluster	hsa-mir-9-3 cluster	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-9-3
+Family	mir-1 family	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-1-2
+Family	mir-1255 family	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-1255a
+Family	mir-129 family	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-129-2
+Family	mir-8 family	2	0.4	16.34482759	5.53e-3	1	0.0606	hsa-mir-141,hsa-mir-200c
+Family	mir-199 family	1	0.33333333	13.62068966	0.0717	1	0.4379	hsa-mir-199b
+Family	mir-17 family	1	0.125	5.10775862	0.1803	1	0.7576	hsa-mir-20b
+Family	mir-214 family	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-214
+Family	mir-221 family	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-221
+Family	mir-33 family	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-33a
+Family	mir-451 family	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-451a
+Family	mir-486 family	2	1	40.86206897	5.79e-4	0.228	0.0122	hsa-mir-486-1,hsa-mir-486-2
+Family	mir-506 family	5	0.27777778	11.35057471	4.22e-5	0.0166	2.17e-3	hsa-mir-508,hsa-mir-509-3,hsa-mir-514a-1,hsa-mir-514a-2,hsa-mir-514a-3
+Family	mir-891 family	1	0.5	20.43103448	0.0484	1	0.3538	hsa-mir-891a
+Family	mir-9 family	3	1	40.86206897	1.32e-5	5.20e-3	8.70e-4	hsa-mir-9-1,hsa-mir-9-2,hsa-mir-9-3
+Tissue Specificity	Heart&amp;amp;Muscle	1	0.08333333	3.40517241	0.2582	1	0.9301	hsa-mir-1-2
+Tissue Specificity	Brain	5	0.25	10.21551724	7.38e-5	0.0291	3.01e-3	hsa-mir-346,hsa-mir-9-1,hsa-mir-9-2,hsa-mir-9-3,hsa-mir-129-2
